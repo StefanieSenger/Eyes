@@ -1,3 +1,7 @@
+# Project specific
+sample_submission.csv
+Testing_set.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,10 +1,10 @@
 ## Project Description
 
-The goal of this project was to train a [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network) (CNN), so that we can scan the image of a patient's eye and find out whether their gender is male or female. The project is my submission for [DPhi's "5 Weeks of Deep Learning Challenge"](https://dphi.tech), November 2022.
+The goal of this project was to train a [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network) (CNN), so that we can scan the image of a person's eye and find out whether their sex is male or female. The project is my submission for [DPhi's "5 Weeks of Deep Learning"](https://dphi.tech) in November 2022.
 
 ## Data
 
-The training dataset contains 9220 eye pictures of males and females. It is sourced from Ruskino RU (PavelBiz). Their labels are stored in a different file.
+The training dataset contains 9220 eye pictures of males and females. It is sourced from Ruskino RU (PavelBiz) and can be downloaded on [Kaggle](https://www.kaggle.com/datasets/pavelbiz/eyes-rtte). Their labels are stored in a different file.
 A test dataset with 2305 more eye pictures was provided that was to be used for prediction.
 
 ## Data Preprocessing
@@ -19,4 +19,4 @@ I build a CNN with three convolutional layers (each followed by pooling layers t
 
 The model was then trained regarging the loss of the validation data (automatically split off by the model).
 
-The accuary of the predicted values (y_pred) served as a loss for the final evaluation on the test data. On submitting, my model obtained an accuracy score of 89.85 percent on the test data.
+The accuary of the predicted values (y_pred) served as a metric for the final evaluation on the test data. On submitting, my model obtained an accuracy score of 89.85 percent on the test data.
